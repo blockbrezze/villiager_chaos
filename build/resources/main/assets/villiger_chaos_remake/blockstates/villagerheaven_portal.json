@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "villiger_chaos_remake:block/villagerheaven_portal_ew"
+    },
+    "axis=x": {
+      "model": "villiger_chaos_remake:block/villagerheaven_portal_ns"
+    }
+  }
+}

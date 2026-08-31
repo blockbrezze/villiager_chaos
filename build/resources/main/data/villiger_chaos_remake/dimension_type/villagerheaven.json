@@ -1,0 +1,45 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "creative": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.creative"
+      },
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.game"
+      }
+    },
+    "minecraft:gameplay/eyeblossom_open": true,
+    "minecraft:gameplay/creaking_active": true,
+    "minecraft:visual/cloud_height": 192,
+    "minecraft:visual/cloud_color": "#ccffffff",
+    "minecraft:visual/ambient_light_color": "#0a0a0a",
+    "minecraft:visual/sunrise_sunset_color": {
+      "modifier": "override",
+      "argument": 0
+    },
+    "minecraft:gameplay/can_start_raid": true,
+    "minecraft:gameplay/respawn_anchor_works": false
+  },
+  "has_skylight": true,
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "coordinate_scale": 1,
+  "ambient_light": 0,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "timelines": "villiger_chaos_remake:villagerheaven_effects",
+  "default_clock": "minecraft:overworld",
+  "min_y": -64,
+  "height": 384,
+  "logical_height": 384,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 7
+  },
+  "monster_spawn_block_light_limit": 0,
+  "skybox": "overworld"
+}

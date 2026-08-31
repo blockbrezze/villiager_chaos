@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:emerald"
+  },
+  "result": {
+    "id": "villiger_chaos_remake:emeraldarmor_boots",
+    "count": 1
+  }
+}

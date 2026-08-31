@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "villiger_chaos_remake:blocks/podium",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "villiger_chaos_remake:podium"
+        }
+      ]
+    }
+  ]
+}

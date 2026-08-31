@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.mcreator.villigerchaosremake.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "NoiseGeneratorSettingsMixin",
+    "BiomeSourcePresetMixin",
+    "LevelStorageSourceMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

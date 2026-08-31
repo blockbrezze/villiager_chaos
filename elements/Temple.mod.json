@@ -1,0 +1,26 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "villager_temple_1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      "CUSTOM:Villagerheavanbiome"
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}
