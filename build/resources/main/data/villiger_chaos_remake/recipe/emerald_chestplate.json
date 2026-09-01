@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:emerald"
+  },
+  "result": {
+    "id": "villiger_chaos_remake:emeraldarmor_chestplate",
+    "count": 1
+  }
+}

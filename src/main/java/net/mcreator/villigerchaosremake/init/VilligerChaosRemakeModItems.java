@@ -14,7 +14,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.villigerchaosremake.item.VillagerstormbreakerItem;
 import net.mcreator.villigerchaosremake.item.VillagerheavenItem;
-import net.mcreator.villigerchaosremake.item.VillagerflintandsteelItem;
 import net.mcreator.villigerchaosremake.item.EmeraldarmorItem;
 import net.mcreator.villigerchaosremake.VilligerChaosRemakeMod;
 
@@ -22,7 +21,6 @@ import java.util.function.Function;
 
 public class VilligerChaosRemakeModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(VilligerChaosRemakeMod.MODID);
-	public static final DeferredItem<Item> VILLAGERFLINTANDSTEEL;
 	public static final DeferredItem<Item> ANGRYVILLAGER_SPAWN_EGG;
 	public static final DeferredItem<Item> VILLAGERPORTALFRAME;
 	public static final DeferredItem<Item> VILLAGERHEAVEN;
@@ -35,7 +33,6 @@ public class VilligerChaosRemakeModItems {
 	public static final DeferredItem<Item> EMERALDARMOR_BOOTS;
 	public static final DeferredItem<Item> RIDEABLEVILLAGER_SPAWN_EGG;
 	static {
-		VILLAGERFLINTANDSTEEL = register("villagerflintandsteel", VillagerflintandsteelItem::new);
 		ANGRYVILLAGER_SPAWN_EGG = register("angryvillager_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(VilligerChaosRemakeModEntities.ANGRYVILLAGER.get())));
 		VILLAGERPORTALFRAME = block(VilligerChaosRemakeModBlocks.VILLAGERPORTALFRAME);
 		VILLAGERHEAVEN = register("villagerheaven", VillagerheavenItem::new);

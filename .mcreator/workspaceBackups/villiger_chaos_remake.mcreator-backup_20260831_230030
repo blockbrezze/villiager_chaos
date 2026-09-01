@@ -1,0 +1,622 @@
+{
+  "mod_elements": [
+    {
+      "name": "Axetrademenu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axetrademenu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/AxetrademenuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Stormbreakertrade",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormbreakertrade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/world/inventory/StormbreakertradeMenu.java",
+          "src/main/java/net/mcreator/villigerchaosremake/client/gui/StormbreakertradeScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Villagerretaleate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerretaleate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/VillagerretaleateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Villagerdamagefloor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerdamagefloor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/VillagerdamagefloorProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Villagerride",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerride",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/VillagerrideProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Villagerflintandsteel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerflintandsteel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/item/VillagerflintandsteelItem.java",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/villagerflintandsteel.json",
+          "src/main/resources/assets/villiger_chaos_remake/items/villagerflintandsteel.json"
+        ]
+      }
+    },
+    {
+      "name": "Dropigniter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropigniter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/DropigniterProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Angryvillager",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angryvillager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/client/renderer/AngryvillagerRenderer.java",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/angryvillager_spawn_egg.json",
+          "src/main/resources/data/villiger_chaos_remake/neoforge/biome_modifier/angryvillager_biome_modifier.json",
+          "src/main/java/net/mcreator/villigerchaosremake/entity/AngryvillagerEntity.java",
+          "src/main/resources/assets/villiger_chaos_remake/items/angryvillager_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Villagerportalframe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerportalframe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/block/VillagerportalframeBlock.java",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/villagerportalframe.json",
+          "src/main/resources/data/villiger_chaos_remake/loot_table/blocks/villagerportalframe.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/block/villagerportalframe.json",
+          "src/main/resources/assets/villiger_chaos_remake/items/villagerportalframe.json",
+          "src/main/resources/assets/villiger_chaos_remake/blockstates/villagerportalframe.json"
+        ]
+      }
+    },
+    {
+      "name": "Villagerheavanbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerheavanbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/worldgen/placed_feature/villagerheavanbiome_tree.json",
+          "src/main/resources/data/villiger_chaos_remake/worldgen/biome/villagerheavanbiome.json",
+          "src/main/resources/data/villiger_chaos_remake/worldgen/configured_feature/villagerheavanbiome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Villagerheaven",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerheaven",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/world/teleporter/VillagerheavenTeleporter.java",
+          "src/main/java/net/mcreator/villigerchaosremake/world/teleporter/VillagerheavenPortalShape.java",
+          "src/main/resources/data/villiger_chaos_remake/dimension/villagerheaven.json",
+          "src/main/java/net/mcreator/villigerchaosremake/block/VillagerheavenPortalBlock.java",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/villagerheaven.json",
+          "src/main/resources/data/villiger_chaos_remake/timeline/villagerheaven_effects.json",
+          "src/main/resources/assets/villiger_chaos_remake/blockstates/villagerheaven_portal.json",
+          "src/main/resources/data/villiger_chaos_remake/dimension_type/villagerheaven.json",
+          "src/main/java/net/mcreator/villigerchaosremake/item/VillagerheavenItem.java",
+          "src/main/resources/assets/villiger_chaos_remake/items/villagerheaven.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/block/villagerheaven_portal_ew.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/block/villagerheaven_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "Portalblock",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/villager_trade/cleric/1/portalblock_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Villagerstormbreaker",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerstormbreaker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/villiger_chaos_remake/models/item/villagerstormbreaker.json",
+          "src/main/java/net/mcreator/villigerchaosremake/item/VillagerstormbreakerItem.java",
+          "src/main/resources/assets/villiger_chaos_remake/items/villagerstormbreaker.json"
+        ]
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/FlightProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Lightning",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/LightningProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TradeStormbreaker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_stormbreaker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/TradeStormbreakerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Villagergod",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagergod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/villiger_chaos_remake/models/item/villagergod_spawn_egg.json",
+          "src/main/java/net/mcreator/villigerchaosremake/client/renderer/VillagergodRenderer.java",
+          "src/main/java/net/mcreator/villigerchaosremake/entity/VillagergodEntity.java",
+          "src/main/resources/assets/villiger_chaos_remake/items/villagergod_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Podium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/villiger_chaos_remake/models/block/podium.json",
+          "src/main/resources/assets/villiger_chaos_remake/items/podium.json",
+          "src/main/java/net/mcreator/villigerchaosremake/block/PodiumBlock.java",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/podium.json",
+          "src/main/resources/assets/villiger_chaos_remake/blockstates/podium.json",
+          "src/main/resources/data/villiger_chaos_remake/loot_table/blocks/podium.json"
+        ]
+      }
+    },
+    {
+      "name": "Temple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/worldgen/structure/temple.json",
+          "src/main/resources/data/villiger_chaos_remake/worldgen/template_pool/temple.json",
+          "src/main/resources/data/villiger_chaos_remake/worldgen/structure_set/temple.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldarmor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/client/renderer/item/EmeraldarmorArmor.java",
+          "src/main/resources/assets/villiger_chaos_remake/items/emeraldarmor_chestplate.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/emeraldarmor_helmet.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/emeraldarmor_chestplate.json",
+          "src/main/resources/assets/villiger_chaos_remake/items/emeraldarmor_boots.json",
+          "src/main/resources/assets/villiger_chaos_remake/items/emeraldarmor_helmet.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/emeraldarmor_boots.json",
+          "src/main/resources/assets/villiger_chaos_remake/items/emeraldarmor_leggings.json",
+          "src/main/resources/assets/villiger_chaos_remake/models/item/emeraldarmor_leggings.json",
+          "src/main/java/net/mcreator/villigerchaosremake/item/EmeraldarmorItem.java",
+          "src/main/resources/assets/villiger_chaos_remake/equipment/emeraldarmor.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/recipe/emerald_helmet.json",
+          "src/main/resources/data/villiger_chaos_remake/advancement/recipes/emeraldhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/advancement/recipes/emeraldchestplate.json",
+          "src/main/resources/data/villiger_chaos_remake/recipe/emerald_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/recipe/emerald_leggings.json",
+          "src/main/resources/data/villiger_chaos_remake/advancement/recipes/emeraldleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/villiger_chaos_remake/recipe/emerald_boots.json",
+          "src/main/resources/data/villiger_chaos_remake/advancement/recipes/emeraldboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Villagergodsummon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagergodsummon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/villigerchaosremake/procedures/VillagergodsummonProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Rideablevillager",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rideablevillager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/villiger_chaos_remake/models/item/rideablevillager_spawn_egg.json",
+          "src/main/java/net/mcreator/villigerchaosremake/client/renderer/RideablevillagerRenderer.java",
+          "src/main/resources/assets/villiger_chaos_remake/items/rideablevillager_spawn_egg.json",
+          "src/main/java/net/mcreator/villigerchaosremake/entity/RideablevillagerEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Villagerheaven@Blocks.QUARTZ_BLOCK#0"
+    ],
+    "VILLAGER_TRADES:minecraft:cleric/level_1": [
+      "~Portalblock@portalblock_0"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~Emeraldarmor@CUSTOM:Emeraldarmor.boots"
+    ],
+    "ITEMS:villiger_chaos_remake:emeraldarmor_repair_items": [
+      "~Emeraldarmor@Items.EMERALD"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.villiger_chaos_remake.stormbreakertrade.label_trade_for_the_power_of_the_gods": "TRADE FOR THE POWER OF THE GODS",
+      "gui.villiger_chaos_remake.stormbreakertrade.button_trade": "Trade",
+      "item.villiger_chaos_remake.villagerflintandsteel": "Villagerflintandsteel",
+      "item.villiger_chaos_remake.angryvillager_spawn_egg": "Angry villager Spawn Egg",
+      "entity.villiger_chaos_remake.angryvillager": "Angry villager",
+      "item.villiger_chaos_remake.villagerportalframe": "Villagerportalframe",
+      "biome.villiger_chaos_remake.villagerheavanbiome": "Villagerheavanbiome",
+      "item.villiger_chaos_remake.villagerheaven": "Villagerheaven Portal Igniter",
+      "item.villiger_chaos_remake.villagerstormbreaker": "Villagerstormbreaker",
+      "entity.villiger_chaos_remake.villagergod": "Villagergod",
+      "item.villiger_chaos_remake.villagergod_spawn_egg": "Villagergod Spawn Egg",
+      "item.villiger_chaos_remake.podium": "Podium",
+      "item.villiger_chaos_remake.emeraldarmor_helmet": "Emerald Helmet",
+      "item.villiger_chaos_remake.emeraldarmor_boots": "Emerald Boots",
+      "item.villiger_chaos_remake.emeraldarmor_chestplate": "Emerald Chestplate",
+      "item.villiger_chaos_remake.emeraldarmor_leggings": "Emerald Leggings",
+      "item.villiger_chaos_remake.rideablevillager_spawn_egg": "Rideablevillager Spawn Egg",
+      "entity.villiger_chaos_remake.rideablevillager": "Rideablevillager"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModBiomes.java",
+      "src/main/java/net/mcreator/villigerchaosremake/mixin/LevelStorageSourceMixin.java",
+      "src/main/java/net/mcreator/villigerchaosremake/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/villigerchaosremake/mixin/BiomeSourcePresetMixin.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModScreens.java",
+      "src/main/java/net/mcreator/villigerchaosremake/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModMenus.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModBlocks.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModItems.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModEntities.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModEntityRenderers.java",
+      "src/main/java/net/mcreator/villigerchaosremake/world/BlockDamageHandler.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/villigerchaosremake/ai/OverrideMovementGoal.java",
+      "src/main/java/net/mcreator/villigerchaosremake/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/net/mcreator/villigerchaosremake/ai/MoveToStructureGoal.java",
+      "src/main/java/net/mcreator/villigerchaosremake/ai/MoveToBlockGoal.java",
+      "src/main/java/net/mcreator/villigerchaosremake/client/renderer/CustomFireballRenderer.java",
+      "src/main/resources/villiger_chaos_remake.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/villigerchaosremake/entity/CustomEyeOfEnderEntity.java",
+      "src/main/java/net/mcreator/villigerchaosremake/ai/OrbitPositionGoal.java",
+      "src/main/java/net/mcreator/villigerchaosremake/world/TeleportBlockHandler.java",
+      "src/main/java/net/mcreator/villigerchaosremake/client/renderer/CustomEyeOfEnderRenderer.java",
+      "src/main/java/net/mcreator/villigerchaosremake/init/VilligerChaosRemakeModTabs.java",
+      "src/main/java/net/mcreator/villigerchaosremake/VilligerChaosRemakeMod.java",
+      "src/main/java/net/mcreator/villigerchaosremake/world/PortalSavedData.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/villigerchaosremake/entity/CustomFireballEntity.java",
+      "src/main/java/net/mcreator/villigerchaosremake/math/CallCounter.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "villiger_chaos_remake",
+    "modName": "villiger chaos remake",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "net.mcreator.villigerchaosremake"
+  },
+  "mcreatorVersion": 202600233518
+}

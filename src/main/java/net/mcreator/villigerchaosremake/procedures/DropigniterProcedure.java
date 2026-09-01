@@ -16,7 +16,7 @@ public class DropigniterProcedure {
 		if (sourceentity instanceof Player) {
 			if (Math.random() < 0.25) {
 				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(VilligerChaosRemakeModItems.VILLAGERFLINTANDSTEEL.get()));
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(VilligerChaosRemakeModItems.VILLAGERHEAVEN.get()));
 					entityToSpawn.setPickUpDelay(10);
 					entityToSpawn.setUnlimitedLifetime();
 					_level.addFreshEntity(entityToSpawn);

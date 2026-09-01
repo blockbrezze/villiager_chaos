@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "minecraft:block/chiseled_quartz_block_top",
-    "portal": "minecraft:block/chiseled_quartz_block_top"
+    "particle": "villiger_chaos_remake:block/chiseled-obsidian_1",
+    "portal": "villiger_chaos_remake:block/chiseled-obsidian_1"
   },
   "elements": [
     {

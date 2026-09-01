@@ -10,8 +10,10 @@
     "states": [],
     "animations": [],
     "name": "Villagerstormbreaker",
-    "rarity": "COMMON",
-    "creativeTabs": [],
+    "rarity": "EPIC",
+    "creativeTabs": [
+      "CUSTOM:Villagerchaos"
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

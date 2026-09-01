@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "villiger_chaos_remake:item/villager_flint_and_steel"
+    "layer0": "villiger_chaos_remake:item/flint-and-steel_1"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "villiger_chaos_remake:emeraldarmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "villiger_chaos_remake:emeraldarmor"
+      }
+    ]
+  }
+}

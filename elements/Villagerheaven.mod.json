@@ -51,16 +51,16 @@
     "portalLuminance": 10,
     "portalSound": "block.portal.ambient",
     "enableIgniter": true,
-    "igniterName": "Villagerheaven Portal Igniter",
+    "igniterName": "Emrald n' bread",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      "TOOLS"
+      "CUSTOM:Villagerchaos"
     ],
-    "texture": "villager_flint_and_steel",
-    "portalTexture": "minecraft:chiseled_quartz_block_top",
+    "texture": "flint-and-steel_1",
+    "portalTexture": "chiseled-obsidian_1",
     "enablePortal": true
   }
 }

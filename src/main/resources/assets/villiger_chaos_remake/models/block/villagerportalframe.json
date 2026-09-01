@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "villiger_chaos_remake:block/villager_portal_block",
-    "particle": "villiger_chaos_remake:block/villager_portal_block"
+    "all": "villiger_chaos_remake:block/chiseled-stone-bricks-engraved-emerald",
+    "particle": "villiger_chaos_remake:block/chiseled-stone-bricks-engraved-emerald"
   }
 }
